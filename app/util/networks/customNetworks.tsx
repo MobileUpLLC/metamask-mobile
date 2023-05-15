@@ -4,6 +4,17 @@ const infuraProjectId = InfuraKey === 'null' ? '' : InfuraKey;
 
 const PopularList = [
   {
+    chainId: '111111',
+    nickname: 'Siberium Network',
+    rpcUrl: 'https://rpc.main.siberium.net',
+    ticker: 'SBR',
+    rpcPrefs: {
+      blockExplorerUrl: 'https://explorer.main.siberium.net/',
+      imageUrl: 'SBR',
+      imageSource: require('../../images/siberium.png'),
+    },
+  },
+  {
     chainId: '43114',
     nickname: 'Avalanche Mainnet C-Chain',
     rpcUrl: 'https://api.avax.network/ext/bc/C/rpc',
